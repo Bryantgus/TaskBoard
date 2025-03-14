@@ -1,6 +1,6 @@
 import './App.css'
-import Header from './components/Header'
-import Tasks from './components/Tasks'
+import Header from './components/mainPage/Header'
+import Tasks from './components/mainPage/Tasks'
 import React from "react";
 
 export default function App() {

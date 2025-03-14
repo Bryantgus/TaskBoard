@@ -19,19 +19,19 @@
  /* Animaciones para entrar y salir */
   @keyframes slideIn {
     from {
-      right: -400px; /* Fuera del viewport */
+      right: -50%; /* Fuera del viewport */
     }
     to {
-      right: 10px; /* Dentro del viewport */
+      right: 1%; /* Dentro del viewport */
     }
   }
   
   @keyframes slideOut {
     from {
-      right: 10px; /* Dentro del viewport */
+      right: 1%; /* Dentro del viewport */
     }
     to {
-      right: -400px; /* Fuera del viewport */
+      right: -50%; /* Fuera del viewport */
     }
   }
   

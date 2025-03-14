@@ -1,6 +1,6 @@
-import { memo } from "react";
+import React from "react";
 
-const IconItem = memo(({ icon, id, handleBg, idSelected }) => {
+const IconItem = React.memo(({ icon, id, handleBg, idSelected }) => {
   return (
     <div
       id={id}
